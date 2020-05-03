@@ -1,0 +1,108 @@
+.navbar-brand {
+    margin-right: 10px;
+    margin-left: 20px;
+}
+
+.main-header .dropdown-menu {
+    left: auto !important;
+    right: 0 !important;
+}
+
+.main-menu ul li a picture {
+    margin-left: 0;
+    margin-right: 15px;
+}
+
+.news-item figure {
+    margin-left: 0;
+    margin-right: 10px;
+}
+
+#nav-tab .dropdown-menu.show {
+    top: 122% !important;
+}
+
+.dropdown-menu::before {
+    left: 15px !important;
+    right: auto !important;
+}
+
+.top-search .form-group button {
+    left: auto;
+    right: 0 !important;
+}
+
+.main-header .navbar-light .navbar-nav .nav-link picture {
+    margin-right: 0;
+    margin-left: 10px;
+}
+
+.calendar-item{
+    padding: 20px 20px 20px 45px;
+}
+
+.calendar-item::before {
+    left: 20px;
+    right: 0;
+}
+
+.khutab-item .author figure, .task-item .author figure, .detial-hed figure {
+    margin-left: 0;
+    margin-right: 10px;
+}
+
+.khutab-item .author a {
+    margin-left: auto;
+    margin-right: 0;
+}
+
+.register-form .input-block select.form-control {
+    background: url("../images/icons/caret-down.svg") no-repeat 98% 40px transparent;
+}
+
+.register-form .input-block label {
+    left: 10px !important;
+    right: auto;
+}
+
+.tasks-hed .dropdown .dropdown-menu {
+    left: 0 !important;
+    right: auto !important;
+}
+
+.mr-auto {
+    margin-right: 0 !important;
+    margin-left: auto;
+}
+
+.task-item .author a {
+    margin-right: 0;
+    margin-left: auto;
+}
+
+.news-details {
+    left: auto !important;
+    right: -110% !important;
+    transition: right 0.9s ease-in-out,
+        opacity 0.4s ease-in;
+}
+
+.news-details.show-it {
+    left: auto !important;
+    right: 0 !important;
+    opacity: 1;
+}
+
+.main-header .navbar-light .navbar-nav .nav-item:first-child .border-link {
+    border-top-left-radius: 5px !important;
+    border-bottom-left-radius: 5px !important;
+    border-top-right-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+}
+
+.main-header .navbar-light .navbar-nav .nav-item:nth-child(2) .border-link {
+    border-top-left-radius: 0 !important;
+    border-bottom-left-radius: 0 !important;
+    border-top-right-radius: 5px !important;
+    border-bottom-right-radius: 5px !important;
+}

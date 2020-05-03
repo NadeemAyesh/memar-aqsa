@@ -1,0 +1,819 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>The Title</title>
+    <!-- Required meta tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="keywords" content="">
+    <meta name="copyright" content="" />
+
+    <link rel="stylesheet" href="css/bootstrap-rtl.min.css">
+    <link rel="stylesheet" href="plugins/font-awesome/css/all.min.css">
+    <link rel="stylesheet" href="plugins/animate/animate.css">
+    <link rel="stylesheet" href="plugins/simplebar-master/simplebar.css">
+    <link rel="stylesheet" href="css/styles.css?v=1.0">
+    <!-- <link rel="stylesheet" href="css/styles-ltr.css?v=1.0"> -->
+
+</head>
+
+<body>
+    <!-- Side Menu -->
+    <aside class="side-menu">
+        <header class="side-menu-header">
+            <a href="" title=""><img src="images/logo.png" class="img-fluid" alt="" title="" /></a>
+        </header>
+        <div class="menu-title">
+            القائمة الرئيسية
+        </div>
+        <div class="dropdown">
+            <a class="dropdown-toggle" href="#" id="navbarDropdown2" role="button" data-toggle="dropdown"
+               aria-haspopup="true" aria-expanded="false">
+
+                <picture>
+                    <img src="images/user.png" alt="اسم المستخدم" />
+                </picture>
+
+                <span>
+                    <b>أهلاً،،</b> <span>خالد</span>
+                </span>
+            </a>
+            <div class="dropdown-menu dropdown-menu-left animate slideIn" aria-labelledby="navbarDropdown2">
+                <a class="dropdown-item" href="#"><i class="fa fa-user fa-fw"></i> حسابي</a>
+                <a class="dropdown-item" href="#"><i class="fa fa-microphone fa-fw"></i> الخطب</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#"><i class="fa fa-lock fa-fw"></i> تسجيل خروج</a>
+            </div>
+        </div>
+
+        <div class="scroll-menu">
+            <nav>
+                <ul>
+                    <li class="">
+                        <a href="#"><i class="fa fa-bell fa-fw"></i></a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="social-menu">
+            <a href="" target="_blank"><i class="fab fa-facebook-f fa-fw"></i></a>
+            <a href="" target="_blank"><i class="fab fa-instagram fa-fw"></i></a>
+            <a href="" target="_blank"><i class="fab fa-twitter fa-fw"></i></a>
+        </div>
+    </aside>
+
+    <div class="side-overlay"></div>
+
+    <!-- main header -->
+    <header class="main-header">
+        <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="images/logo.png" alt="" title="" />
+                </a>
+                <button class="navbar-toggler" type="button" id="OpenMenu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link border-link" style="border-top-left-radius: 0;border-bottom-left-radius: 0;" href="#" data-toggle="modal" data-target=".login-modal">دخول</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link border-link" style="border-top-right-radius: 0;border-bottom-right-radius: 0;" href="#">تسجيل جديد</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link story-btn-open" href="#">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="29.698" height="29.698" viewBox="0 0 29.698 29.698">
+                                    <g id="Ellipse_541" data-name="Ellipse 541" transform="translate(14.849) rotate(45)" fill="none" stroke="#fff"
+                                        stroke-linecap="round" stroke-width="2" stroke-dasharray="8">
+                                        <circle cx="10.5" cy="10.5" r="10.5" stroke="none" />
+                                        <circle cx="10.5" cy="10.5" r="9.5" fill="none" />
+                                    </g>
+                                </svg>
+
+                                القصص
+                            </a>
+                        </li>
+                        <li class="nav-item dropdown normal-drop">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false">
+                                <i class="fa fa-globe fa-fw"></i> العربية
+                            </a>
+                            <div class="dropdown-menu dropdown-menu-left animate slideIn" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="#"> الصينية</a>
+                                <a class="dropdown-item" href="#"> التركية</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#"> الإنجليزية</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><i class="fa fa-bell fa-fw"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- main header -->
+
+    <div class="modal login-modal fade" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header border-0">
+                    <h5 class="modal-title">تسجيل الدخول</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form class="login-form">
+                        <p>من فضلك أدخل رقم هاتفك للدخول</p>
+                        <div class="bord mb-2"></div>
+
+                        <div class="form-group">
+                            <select class="form-control">
+                                <option selected disabled>تركيا</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="tel">رقم الهاتف</label>
+                            <input type="tel" id="tel" name="" class="form-control" placeholder="" />
+                            <small id="emailHelp" class="form-text text-muted">
+                                سنرسل لك رسالة نصية مكونة من أربع أرقام للتحقق من رقم هاتفك
+                            </small>
+                        </div>
+                        <div class="form-group d-flex align-items-center justify-content-between div-btn">
+                            <p>لا تمتلك حساب ؟ <a href="">سجل من هنا</a></p>
+                            <button type="submit" class="btn btn-warning" onclick="openModal('.code-modal', '.login-modal')">إرسال</button>
+                        </div>
+                    </form>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+    <div class="modal code-modal fade" tabindex="-1" role="dialog">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header border-0">
+                    <h5 class="modal-title">كود التحقق</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form class="login-form">
+                        <p>من فضلك أدخل كود التحقق</p>
+                        <div class="bord mb-2"></div>
+
+                        <div class="form-group row code-fields" style="flex-wrap: nowrap;">
+                            <div class="col-2">
+                                <input type="text" class="form-control" />
+                            </div>
+                            <div class="col-2">
+                                <input type="text" class="form-control" />
+                            </div>
+                            <div class="col-2">
+                                <input type="text" class="form-control" />
+                            </div>
+                            <div class="col-2">
+                                <input type="text" class="form-control" />
+                            </div>
+                            <div class="col-2">
+                                <input type="text" class="form-control" />
+                            </div>
+                            <div class="col-2">
+                                <input type="text" class="form-control" />
+                            </div>
+                        </div>
+                        <a href="" class="btn"><i class="fas fa-redo-alt fa-fw"></i> إعادة ارسال كود التحقق</a>
+
+                        <div class="form-group d-flex align-items-center justify-content-between div-btn">
+                            <button type="submit" class="btn btn-warning mr-auto">إرسال</button>
+                        </div>
+                    </form>
+                </div>
+    
+            </div>
+        </div>
+    </div>
+
+    <section class="story">
+        <div class="d-table w-100 h-100">
+            <div class="d-table-cell" style="vertical-align: middle;">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-7">
+                            <div id="storySlider" class="carousel slide" data-ride="carousel">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <article class="story-item">
+                                            <button type="button" class="btn btn-dark close-story"><i class="fa fa-times fa-fw"></i></button>
+                                            <div class="date">
+                                                <p>14 </p>
+                                                <p>يناير 2020</p>
+                                                
+                                                <p>1441 جمادى الأولى 18</p>
+                                            </div>
+                                            <img src="images/story.png" class="d-block w-100" alt="...">
+                                            <div class="story-caption">
+                                                <h4>‏‎القدس</h4>
+                                                <p>ذنبكِ أنكِ جميلة كيوسف
+                                                وخانك العالم كأخوته</p>
+                                            </div>
+                                        </article>
+                                        <div class="text-center mt-3">
+                                            <button type="button" class="btn btn-outline-light fav-btn">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="23.265" height="20.125" viewBox="0 0 23.265 20.125">
+                                                    <g id="surface1" transform="translate(-4 -8)">
+                                                        <path id="Path_7233" data-name="Path 7233"
+                                                            d="M21.449,8c-3.258,0-5.816,3.258-5.816,3.258S13.074,8,9.816,8A5.759,5.759,0,0,0,4,13.816c0,7.911,11.632,14.309,11.632,14.309s11.632-6.4,11.632-14.309A5.759,5.759,0,0,0,21.449,8Z"
+                                                            fill="#fff" />
+                                                    </g>
+                                                </svg>
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <article class="story-item">
+                                            <button type="button" class="btn btn-dark close-story"><i class="fa fa-times fa-fw"></i></button>
+                                            <div class="date">
+                                                <p>14 </p>
+                                                <p>يناير 2020</p>
+                                        
+                                                <p>1441 18</p>
+                                            </div>
+                                            <img src="images/news.jpg" class="d-block w-100" alt="...">
+                                            <div class="story-caption">
+                                                <h4>‏‎القدس</h4>
+                                                <p>ذنبكِ أنكِ جميلة كيوسف
+                                                    وخانك العالم كأخوته</p>
+                                            </div>
+                                        </article>
+                                        <div class="text-center mt-3">
+                                            <button type="button" class="btn btn-outline-light fav-btn">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="23.265" height="20.125" viewBox="0 0 23.265 20.125">
+                                                    <g id="surface1" transform="translate(-4 -8)">
+                                                        <path id="Path_7233" data-name="Path 7233"
+                                                            d="M21.449,8c-3.258,0-5.816,3.258-5.816,3.258S13.074,8,9.816,8A5.759,5.759,0,0,0,4,13.816c0,7.911,11.632,14.309,11.632,14.309s11.632-6.4,11.632-14.309A5.759,5.759,0,0,0,21.449,8Z"
+                                                            fill="#fff" />
+                                                    </g>
+                                                </svg>
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <article class="story-item">
+                                            <button type="button" class="btn btn-dark close-story"><i class="fa fa-times fa-fw"></i></button>
+                                            <div class="date">
+                                                <p>14 </p>
+                                                <p>يناير 2020</p>
+                                        
+                                                <p>1441 18</p>
+                                            </div>
+                                            <img src="images/news.jpg" class="d-block w-100" alt="...">
+                                            <div class="story-caption">
+                                                <h4>‏‎القدس</h4>
+                                                <p>ذنبكِ أنكِ جميلة كيوسف
+                                                    وخانك العالم كأخوته</p>
+                                            </div>
+                                        </article>
+                                        <div class="text-center mt-3">
+                                            <button type="button" class="btn btn-outline-light fav-btn">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="23.265" height="20.125" viewBox="0 0 23.265 20.125">
+                                                    <g id="surface1" transform="translate(-4 -8)">
+                                                        <path id="Path_7233" data-name="Path 7233"
+                                                            d="M21.449,8c-3.258,0-5.816,3.258-5.816,3.258S13.074,8,9.816,8A5.759,5.759,0,0,0,4,13.816c0,7.911,11.632,14.309,11.632,14.309s11.632-6.4,11.632-14.309A5.759,5.759,0,0,0,21.449,8Z"
+                                                            fill="#fff" />
+                                                    </g>
+                                                </svg>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <a class="carousel-control-prev" href="#storySlider" role="button" data-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Previous</span>
+                                </a>
+                                <a class="carousel-control-next" href="#storySlider" role="button" data-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Next</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="container">
+        <main class="main-layout">
+            <div class="menu-overlay"></div>
+            <div class="row no-gutters">
+                <div class="col-lg-3">
+                    <aside class="main-menu">
+                        <ul class="list-unstyled">
+                            <li>
+                                <a href="" class="active"><picture><img src="images/icons/news.svg" alt="" /></picture> الأخبار</a>
+                            </li>
+                            <li>
+                                <a href="" ><picture><img src="images/icons/news.svg" alt="" /></picture> الأخبار</a>
+                            </li>
+                            <li>
+                                <a href="" ><picture><img src="images/icons/mic.svg" alt="" /></picture> الخطب</a>
+                            </li>
+                            <li>
+                                <a href="" ><picture><img src="images/icons/tasks.svg" alt="" /> </picture>إدارة المهام</a>
+                            </li>
+                            <li>
+                                <a href="" ><picture><img src="images/icons/calendar.svg" alt="" /></picture> الأحداث</a>
+                            </li>
+                            <li>
+                                <a href="" ><picture><img src="images/icons/book.svg" alt="" /></picture> المكتبة</a>
+                            </li>
+                            <li>
+                                <a href="" ><picture><img src="images/icons/donate.svg" alt="" /></picture> التبرع</a>
+                            </li>
+                            <li>
+                                <a href="" ><picture><img src="images/icons/phone.svg" alt="" /></picture> تواصل معنا</a>
+                            </li>
+                        </ul>
+                    </aside>
+                </div>
+                <div class="col-lg-9">
+                    <form class="top-search d-flex align-items-center">
+                        <a href="javascript:;" class="main-menu-btn"><i class="fa fa-align-right fa-fw"></i></a>
+                        <div class="form-group mb-0" style="flex: 1">
+                            <label for="searchInput" class="d-none">بحث</label>
+                            <input type="search" name="" class="form-control" id="searchInput" />
+                            <button type="submit" class="btn">
+                                <img src="images/icons/search.svg" alt="" />
+                            </button>
+                        </div>
+                    </form>
+                    <div class="the-content">
+
+                        <nav class="tab-nav">
+                            <div class="nav" id="nav-tab" role="tablist">
+                                <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab"
+                                    aria-controls="nav-home" aria-selected="true">أخبار المنبر</a>
+                                <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab"
+                                    aria-controls="nav-profile" aria-selected="false">أخبار القدس</a>
+                                <!-- <a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab"
+                                    aria-controls="nav-contact" aria-selected="false">Contact</a> -->
+                            </div>
+                        </nav>
+                        <div class="tab-content" id="nav-tabContent">
+                            <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+                                <div class="news-hold" data-simplebar>
+                                    <div class="row">
+                                        <div class="col-lg-7">
+                                            <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                                                <div class="carousel-inner">
+                                                    <div class="carousel-item active">
+                                                        <a href="" class="news-link">
+                                                            <article class="news-item slider-news-item">
+                                                                <figure>
+                                                                    <img src="images/news.jpg" alt="" title="" />
+                                                                </figure>
+                                                                <div class="news-overlay">
+                                                                    <h4>انطلاق ملتقى "منبر الأقصى للخطباء
+                                                                        والدعاة" بإسطنبول</h4>
+                                                                    <span><i class="fa fa-clock fa-fw"></i> منذ يومان</span>
+                                                                    <div class="d-none news-text">
+                                                                        <p>
+                                                                            انطلقت في مدينة إسطنبول التركية الجمعة فعاليات ملتقى "منبر الأقصى للخطباء والدعاة" الذي تنظمه لجان القدس في الاتحاد
+                                                                            العالمي لعلماء المسلمين وهيئة علماء فلسطين في الخارج وملتقى "القدس أمانتي" التابع لجمعية "إرادة" الدولية
+                                                                            وحضر الملتقى الذي يقام بمناسبة الذكرى السنوية الخمسين لاحتلال المسجد الأقصى المبارك شخصيات دينية وسياسية ونحو 200 خطيب
+                                                                            وداعية من عدد من الدول العربية والإسلامية، بينها تركيا ولبنان ومصر والعراق وقطر والسعودية والمغرب والجزائر وماليزيا
+                                                                            وإندونيسيا وغيرها
+                                                                        </p>
+                                                                        <p>
+                                                                            ووصف المتحدثون في جلسة الافتتاح الملتقى بأنه ثمرة لتعاون المؤسسات التي "تحمل هم القدس وتتبنى الدفاع عنها"، مؤكدين على
+                                                                            ضرورة استثمار دور الخطباء والدعاة في العمل لمدينة القدس وتوعية الأمة العربية والإسلامية بالمخاطر المحيقة بها كما أكدوا
+                                                                            على دور الخطباء والدعاة في الحفاظ على هوية القدس والمسجد الأقصى المبارك، والعمل على تحريك الهمم تجاه القضية الفلسطينية
+                                                                            قضية المسلمين الأولى.
+                                                                            القره داغي دعا إلى توحيد جهود العلماء وطاقات المؤسسات العاملة للقدس، واجب لا تطوع
+                                                                            وقال الأمين العام للاتحاد العالمي لعلماء المسلمين الدكتور علي القره داغي إن العلماء والدعاة والأئمة والوعاظ مرابطون على
+                                                                            ثغر من ثغور الإسلام، معتبرا العمل للقدس والدفاع عن فلسطين واجبا شرعيا لا عملا تطوعيا على كل منهم.
+                                                                        </p>
+                                                                    </div>
+                                                                </div>
+                                                            </article>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                                <!--<a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                    <span class="sr-only">Previous</span>
+                                                </a>
+                                                <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                    <span class="sr-only">Next</span>
+                                                </a>-->
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-5">
+                                            <a href="" class="news-link">
+                                                <div class="news-big">
+                                                    <figure>
+                                                        <img src="images/news.jpg" alt="image alt" title="" />
+                                                        <input type="hidden" class="img-src" value="images/news.jpg" />
+                                                        <input type="hidden" class="img-src" value="images/news.jpg" />
+                                                        <input type="hidden" class="img-src" value="images/news.jpg" />
+                                                        <input type="hidden" class="img-src" value="images/news.jpg" />
+                                                    </figure>
+
+                                                    <div class="video-src d-none">
+                                                        <source src="" type="video/mp4">
+                                                        <source src="https://download.blender.org/peach/trailer/trailer_1080p.ogg" type="video/ogg">
+                                                        Your browser does not support HTML5 video.
+                                                    </div>
+
+                                                    <input type="hidden" value="https://www.youtube.com/embed/MNPUOQ1XtwA" class="ifram-src" />
+
+                                                    <div class="news-big-text">
+                                                        <h4>انطلاق ملتقى "منبر الأقصى للخطباء والدعاة" بإسطنبول</h4>
+                                                        <p>
+                                                            انطلاق ملتقى "منبر الأقصى للخطباء والدعاة" بإسطنبول انطلاق ملتقى "منبر الأقصى للخطباء والدعاة" بإسطنبول
+                                                            انطلاق ملتقى "منبر الأقصى للخطباء والدعاة" بإسطنبول
+                                                        </p>
+                                                        <span><i class="fa fa-clock fa-fw"></i> منذ 5 أيام</span>
+                                                        <div class="d-none news-text">
+                                                            <p>
+                                                                انطلقت في مدينة إسطنبول التركية الجمعة فعاليات ملتقى "منبر الأقصى للخطباء والدعاة" الذي تنظمه لجان القدس في الاتحاد
+                                                                العالمي لعلماء المسلمين وهيئة علماء فلسطين في الخارج وملتقى "القدس أمانتي" التابع لجمعية "إرادة" الدولية
+                                                                وحضر الملتقى الذي يقام بمناسبة الذكرى السنوية الخمسين لاحتلال المسجد الأقصى المبارك شخصيات دينية وسياسية ونحو 200 خطيب
+                                                                وداعية من عدد من الدول العربية والإسلامية، بينها تركيا ولبنان ومصر والعراق وقطر والسعودية والمغرب والجزائر وماليزيا
+                                                                وإندونيسيا وغيرها
+                                                            </p>
+                                                            <p>
+                                                                ووصف المتحدثون في جلسة الافتتاح الملتقى بأنه ثمرة لتعاون المؤسسات التي "تحمل هم القدس وتتبنى الدفاع عنها"، مؤكدين على
+                                                                ضرورة استثمار دور الخطباء والدعاة في العمل لمدينة القدس وتوعية الأمة العربية والإسلامية بالمخاطر المحيقة بها كما أكدوا
+                                                                على دور الخطباء والدعاة في الحفاظ على هوية القدس والمسجد الأقصى المبارك، والعمل على تحريك الهمم تجاه القضية الفلسطينية
+                                                                قضية المسلمين الأولى.
+                                                                القره داغي دعا إلى توحيد جهود العلماء وطاقات المؤسسات العاملة للقدس، واجب لا تطوع
+                                                                وقال الأمين العام للاتحاد العالمي لعلماء المسلمين الدكتور علي القره داغي إن العلماء والدعاة والأئمة والوعاظ مرابطون على
+                                                                ثغر من ثغور الإسلام، معتبرا العمل للقدس والدفاع عن فلسطين واجبا شرعيا لا عملا تطوعيا على كل منهم.
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="col-lg-12">
+                                            <div class="row">
+                                                <div class="col-lg-6 col-md-6">
+                                                    <a href="" class="news-link">
+                                                        <article class="news-item media">
+                                                            <figure>
+                                                                <img src="images/news.png" alt="" title="" />
+                                                            </figure>
+                                                            <div class="media-body">
+                                                                <h4>انطلاق ملتقى "منبر الأقصى للخطباء
+                                                                    والدعاة" بإسطنبول</h4>
+                                                                <span><i class="fa fa-clock fa-fw"></i> منذ يومان</span>
+                                                                <div class="d-none news-text">
+                                                                    <p>
+                                                                        انطلقت في مدينة إسطنبول التركية الجمعة فعاليات ملتقى "منبر الأقصى للخطباء والدعاة" الذي تنظمه لجان القدس في الاتحاد
+                                                                        العالمي لعلماء المسلمين وهيئة علماء فلسطين في الخارج وملتقى "القدس أمانتي" التابع لجمعية "إرادة" الدولية
+                                                                        وحضر الملتقى الذي يقام بمناسبة الذكرى السنوية الخمسين لاحتلال المسجد الأقصى المبارك شخصيات دينية وسياسية ونحو 200 خطيب
+                                                                        وداعية من عدد من الدول العربية والإسلامية، بينها تركيا ولبنان ومصر والعراق وقطر والسعودية والمغرب والجزائر وماليزيا
+                                                                        وإندونيسيا وغيرها
+                                                                    </p>
+                                                                    <p>
+                                                                        ووصف المتحدثون في جلسة الافتتاح الملتقى بأنه ثمرة لتعاون المؤسسات التي "تحمل هم القدس وتتبنى الدفاع عنها"، مؤكدين على
+                                                                        ضرورة استثمار دور الخطباء والدعاة في العمل لمدينة القدس وتوعية الأمة العربية والإسلامية بالمخاطر المحيقة بها كما أكدوا
+                                                                        على دور الخطباء والدعاة في الحفاظ على هوية القدس والمسجد الأقصى المبارك، والعمل على تحريك الهمم تجاه القضية الفلسطينية
+                                                                        قضية المسلمين الأولى.
+                                                                        القره داغي دعا إلى توحيد جهود العلماء وطاقات المؤسسات العاملة للقدس، واجب لا تطوع
+                                                                        وقال الأمين العام للاتحاد العالمي لعلماء المسلمين الدكتور علي القره داغي إن العلماء والدعاة والأئمة والوعاظ مرابطون على
+                                                                        ثغر من ثغور الإسلام، معتبرا العمل للقدس والدفاع عن فلسطين واجبا شرعيا لا عملا تطوعيا على كل منهم.
+                                                                    </p>
+                                                                </div>
+                                                            </div>
+                                                        </article>
+                                                    </a>
+                                                </div>
+                                                <div class="col-lg-6 col-md-6">
+                                                    <a href="" class="news-link">
+                                                        <article class="news-item media">
+                                                            <figure>
+                                                                <img src="images/news.png" alt="" title="" />
+                                                            </figure>
+                                                            <div class="media-body">
+                                                                <h4>انطلاق ملتقى "منبر الأقصى للخطباء
+                                                                    والدعاة" بإسطنبول</h4>
+                                                                <span><i class="fa fa-clock fa-fw"></i> منذ يومان</span>
+                                                                <div class="d-none news-text">
+                                                                    <p>
+                                                                        انطلقت في مدينة إسطنبول التركية الجمعة فعاليات ملتقى "منبر الأقصى للخطباء والدعاة" الذي تنظمه لجان القدس في الاتحاد
+                                                                        العالمي لعلماء المسلمين وهيئة علماء فلسطين في الخارج وملتقى "القدس أمانتي" التابع لجمعية "إرادة" الدولية
+                                                                        وحضر الملتقى الذي يقام بمناسبة الذكرى السنوية الخمسين لاحتلال المسجد الأقصى المبارك شخصيات دينية وسياسية ونحو 200 خطيب
+                                                                        وداعية من عدد من الدول العربية والإسلامية، بينها تركيا ولبنان ومصر والعراق وقطر والسعودية والمغرب والجزائر وماليزيا
+                                                                        وإندونيسيا وغيرها
+                                                                    </p>
+                                                                    <p>
+                                                                        ووصف المتحدثون في جلسة الافتتاح الملتقى بأنه ثمرة لتعاون المؤسسات التي "تحمل هم القدس وتتبنى الدفاع عنها"، مؤكدين على
+                                                                        ضرورة استثمار دور الخطباء والدعاة في العمل لمدينة القدس وتوعية الأمة العربية والإسلامية بالمخاطر المحيقة بها كما أكدوا
+                                                                        على دور الخطباء والدعاة في الحفاظ على هوية القدس والمسجد الأقصى المبارك، والعمل على تحريك الهمم تجاه القضية الفلسطينية
+                                                                        قضية المسلمين الأولى.
+                                                                        القره داغي دعا إلى توحيد جهود العلماء وطاقات المؤسسات العاملة للقدس، واجب لا تطوع
+                                                                        وقال الأمين العام للاتحاد العالمي لعلماء المسلمين الدكتور علي القره داغي إن العلماء والدعاة والأئمة والوعاظ مرابطون على
+                                                                        ثغر من ثغور الإسلام، معتبرا العمل للقدس والدفاع عن فلسطين واجبا شرعيا لا عملا تطوعيا على كل منهم.
+                                                                    </p>
+                                                                </div>
+                                                            </div>
+                                                        </article>
+                                                    </a>
+                                                </div>
+                                                <div class="col-lg-6 col-md-6">
+                                                    <a href="" class="news-link">
+                                                        <article class="news-item media">
+                                                            <figure>
+                                                                <img src="images/news.png" alt="" title="" />
+                                                            </figure>
+                                                            <div class="media-body">
+                                                                <h4>انطلاق ملتقى "منبر الأقصى للخطباء
+                                                                    والدعاة" بإسطنبول</h4>
+                                                                <span><i class="fa fa-clock fa-fw"></i> منذ يومان</span>
+                                                                <div class="d-none news-text">
+                                                                    <p>
+                                                                        انطلقت في مدينة إسطنبول التركية الجمعة فعاليات ملتقى "منبر الأقصى للخطباء والدعاة" الذي تنظمه لجان القدس في الاتحاد
+                                                                        العالمي لعلماء المسلمين وهيئة علماء فلسطين في الخارج وملتقى "القدس أمانتي" التابع لجمعية "إرادة" الدولية
+                                                                        وحضر الملتقى الذي يقام بمناسبة الذكرى السنوية الخمسين لاحتلال المسجد الأقصى المبارك شخصيات دينية وسياسية ونحو 200 خطيب
+                                                                        وداعية من عدد من الدول العربية والإسلامية، بينها تركيا ولبنان ومصر والعراق وقطر والسعودية والمغرب والجزائر وماليزيا
+                                                                        وإندونيسيا وغيرها
+                                                                    </p>
+                                                                    <p>
+                                                                        ووصف المتحدثون في جلسة الافتتاح الملتقى بأنه ثمرة لتعاون المؤسسات التي "تحمل هم القدس وتتبنى الدفاع عنها"، مؤكدين على
+                                                                        ضرورة استثمار دور الخطباء والدعاة في العمل لمدينة القدس وتوعية الأمة العربية والإسلامية بالمخاطر المحيقة بها كما أكدوا
+                                                                        على دور الخطباء والدعاة في الحفاظ على هوية القدس والمسجد الأقصى المبارك، والعمل على تحريك الهمم تجاه القضية الفلسطينية
+                                                                        قضية المسلمين الأولى.
+                                                                        القره داغي دعا إلى توحيد جهود العلماء وطاقات المؤسسات العاملة للقدس، واجب لا تطوع
+                                                                        وقال الأمين العام للاتحاد العالمي لعلماء المسلمين الدكتور علي القره داغي إن العلماء والدعاة والأئمة والوعاظ مرابطون على
+                                                                        ثغر من ثغور الإسلام، معتبرا العمل للقدس والدفاع عن فلسطين واجبا شرعيا لا عملا تطوعيا على كل منهم.
+                                                                    </p>
+                                                                </div>
+                                                            </div>
+                                                        </article>
+                                                    </a>
+                                                </div>
+                                                <div class="col-lg-6 col-md-6">
+                                                    <a href="" class="news-link">
+                                                        <article class="news-item media">
+                                                            <figure>
+                                                                <img src="images/news.png" alt="" title="" />
+                                                            </figure>
+                                                            <div class="media-body">
+                                                                <h4>انطلاق ملتقى "منبر الأقصى للخطباء
+                                                                    والدعاة" بإسطنبول</h4>
+                                                                <span><i class="fa fa-clock fa-fw"></i> منذ يومان</span>
+                                                                <div class="d-none news-text">
+                                                                    <p>
+                                                                        انطلقت في مدينة إسطنبول التركية الجمعة فعاليات ملتقى "منبر الأقصى للخطباء والدعاة" الذي تنظمه لجان القدس في الاتحاد
+                                                                        العالمي لعلماء المسلمين وهيئة علماء فلسطين في الخارج وملتقى "القدس أمانتي" التابع لجمعية "إرادة" الدولية
+                                                                        وحضر الملتقى الذي يقام بمناسبة الذكرى السنوية الخمسين لاحتلال المسجد الأقصى المبارك شخصيات دينية وسياسية ونحو 200 خطيب
+                                                                        وداعية من عدد من الدول العربية والإسلامية، بينها تركيا ولبنان ومصر والعراق وقطر والسعودية والمغرب والجزائر وماليزيا
+                                                                        وإندونيسيا وغيرها
+                                                                    </p>
+                                                                    <p>
+                                                                        ووصف المتحدثون في جلسة الافتتاح الملتقى بأنه ثمرة لتعاون المؤسسات التي "تحمل هم القدس وتتبنى الدفاع عنها"، مؤكدين على
+                                                                        ضرورة استثمار دور الخطباء والدعاة في العمل لمدينة القدس وتوعية الأمة العربية والإسلامية بالمخاطر المحيقة بها كما أكدوا
+                                                                        على دور الخطباء والدعاة في الحفاظ على هوية القدس والمسجد الأقصى المبارك، والعمل على تحريك الهمم تجاه القضية الفلسطينية
+                                                                        قضية المسلمين الأولى.
+                                                                        القره داغي دعا إلى توحيد جهود العلماء وطاقات المؤسسات العاملة للقدس، واجب لا تطوع
+                                                                        وقال الأمين العام للاتحاد العالمي لعلماء المسلمين الدكتور علي القره داغي إن العلماء والدعاة والأئمة والوعاظ مرابطون على
+                                                                        ثغر من ثغور الإسلام، معتبرا العمل للقدس والدفاع عن فلسطين واجبا شرعيا لا عملا تطوعيا على كل منهم.
+                                                                    </p>
+                                                                </div>
+                                                            </div>
+                                                        </article>
+                                                    </a>
+                                                </div>
+                                                <div class="col-lg-6 col-md-6">
+                                                    <a href="" class="news-link">
+                                                        <article class="news-item media">
+                                                            <figure>
+                                                                <img src="images/news.png" alt="" title="" />
+                                                            </figure>
+                                                            <div class="media-body">
+                                                                <h4>انطلاق ملتقى "منبر الأقصى للخطباء
+                                                                    والدعاة" بإسطنبول</h4>
+                                                                <span><i class="fa fa-clock fa-fw"></i> منذ يومان</span>
+                                                                <div class="d-none news-text">
+                                                                    <p>
+                                                                        انطلقت في مدينة إسطنبول التركية الجمعة فعاليات ملتقى "منبر الأقصى للخطباء والدعاة" الذي تنظمه لجان القدس في الاتحاد
+                                                                        العالمي لعلماء المسلمين وهيئة علماء فلسطين في الخارج وملتقى "القدس أمانتي" التابع لجمعية "إرادة" الدولية
+                                                                        وحضر الملتقى الذي يقام بمناسبة الذكرى السنوية الخمسين لاحتلال المسجد الأقصى المبارك شخصيات دينية وسياسية ونحو 200 خطيب
+                                                                        وداعية من عدد من الدول العربية والإسلامية، بينها تركيا ولبنان ومصر والعراق وقطر والسعودية والمغرب والجزائر وماليزيا
+                                                                        وإندونيسيا وغيرها
+                                                                    </p>
+                                                                    <p>
+                                                                        ووصف المتحدثون في جلسة الافتتاح الملتقى بأنه ثمرة لتعاون المؤسسات التي "تحمل هم القدس وتتبنى الدفاع عنها"، مؤكدين على
+                                                                        ضرورة استثمار دور الخطباء والدعاة في العمل لمدينة القدس وتوعية الأمة العربية والإسلامية بالمخاطر المحيقة بها كما أكدوا
+                                                                        على دور الخطباء والدعاة في الحفاظ على هوية القدس والمسجد الأقصى المبارك، والعمل على تحريك الهمم تجاه القضية الفلسطينية
+                                                                        قضية المسلمين الأولى.
+                                                                        القره داغي دعا إلى توحيد جهود العلماء وطاقات المؤسسات العاملة للقدس، واجب لا تطوع
+                                                                        وقال الأمين العام للاتحاد العالمي لعلماء المسلمين الدكتور علي القره داغي إن العلماء والدعاة والأئمة والوعاظ مرابطون على
+                                                                        ثغر من ثغور الإسلام، معتبرا العمل للقدس والدفاع عن فلسطين واجبا شرعيا لا عملا تطوعيا على كل منهم.
+                                                                    </p>
+                                                                </div>
+                                                            </div>
+                                                        </article>
+                                                    </a>
+                                                </div>
+                                                <div class="col-lg-6 col-md-6">
+                                                    <a href="" class="news-link">
+                                                        <article class="news-item media">
+                                                            <figure>
+                                                                <img src="images/news.png" alt="" title="" />
+                                                            </figure>
+                                                            <div class="media-body">
+                                                                <h4>انطلاق ملتقى "منبر الأقصى للخطباء
+                                                                    والدعاة" بإسطنبول</h4>
+                                                                <span><i class="fa fa-clock fa-fw"></i> منذ يومان</span>
+                                                                <div class="d-none news-text">
+                                                                    <p>
+                                                                        انطلقت في مدينة إسطنبول التركية الجمعة فعاليات ملتقى "منبر الأقصى للخطباء والدعاة" الذي تنظمه لجان القدس في الاتحاد
+                                                                        العالمي لعلماء المسلمين وهيئة علماء فلسطين في الخارج وملتقى "القدس أمانتي" التابع لجمعية "إرادة" الدولية
+                                                                        وحضر الملتقى الذي يقام بمناسبة الذكرى السنوية الخمسين لاحتلال المسجد الأقصى المبارك شخصيات دينية وسياسية ونحو 200 خطيب
+                                                                        وداعية من عدد من الدول العربية والإسلامية، بينها تركيا ولبنان ومصر والعراق وقطر والسعودية والمغرب والجزائر وماليزيا
+                                                                        وإندونيسيا وغيرها
+                                                                    </p>
+                                                                    <p>
+                                                                        ووصف المتحدثون في جلسة الافتتاح الملتقى بأنه ثمرة لتعاون المؤسسات التي "تحمل هم القدس وتتبنى الدفاع عنها"، مؤكدين على
+                                                                        ضرورة استثمار دور الخطباء والدعاة في العمل لمدينة القدس وتوعية الأمة العربية والإسلامية بالمخاطر المحيقة بها كما أكدوا
+                                                                        على دور الخطباء والدعاة في الحفاظ على هوية القدس والمسجد الأقصى المبارك، والعمل على تحريك الهمم تجاه القضية الفلسطينية
+                                                                        قضية المسلمين الأولى.
+                                                                        القره داغي دعا إلى توحيد جهود العلماء وطاقات المؤسسات العاملة للقدس، واجب لا تطوع
+                                                                        وقال الأمين العام للاتحاد العالمي لعلماء المسلمين الدكتور علي القره داغي إن العلماء والدعاة والأئمة والوعاظ مرابطون على
+                                                                        ثغر من ثغور الإسلام، معتبرا العمل للقدس والدفاع عن فلسطين واجبا شرعيا لا عملا تطوعيا على كل منهم.
+                                                                    </p>
+                                                                </div>
+                                                            </div>
+                                                        </article>
+                                                    </a>
+                                                </div>
+                                                <div class="col-lg-6 col-md-6">
+                                                    <a href="" class="news-link">
+                                                        <article class="news-item media">
+                                                            <figure>
+                                                                <img src="images/news.png" alt="" title="" />
+                                                            </figure>
+                                                            <div class="media-body">
+                                                                <h4>انطلاق ملتقى "منبر الأقصى للخطباء
+                                                                    والدعاة" بإسطنبول</h4>
+                                                                <span><i class="fa fa-clock fa-fw"></i> منذ يومان</span>
+                                                                <div class="d-none news-text">
+                                                                    <p>
+                                                                        انطلقت في مدينة إسطنبول التركية الجمعة فعاليات ملتقى "منبر الأقصى للخطباء والدعاة" الذي تنظمه لجان القدس في الاتحاد
+                                                                        العالمي لعلماء المسلمين وهيئة علماء فلسطين في الخارج وملتقى "القدس أمانتي" التابع لجمعية "إرادة" الدولية
+                                                                        وحضر الملتقى الذي يقام بمناسبة الذكرى السنوية الخمسين لاحتلال المسجد الأقصى المبارك شخصيات دينية وسياسية ونحو 200 خطيب
+                                                                        وداعية من عدد من الدول العربية والإسلامية، بينها تركيا ولبنان ومصر والعراق وقطر والسعودية والمغرب والجزائر وماليزيا
+                                                                        وإندونيسيا وغيرها
+                                                                    </p>
+                                                                    <p>
+                                                                        ووصف المتحدثون في جلسة الافتتاح الملتقى بأنه ثمرة لتعاون المؤسسات التي "تحمل هم القدس وتتبنى الدفاع عنها"، مؤكدين على
+                                                                        ضرورة استثمار دور الخطباء والدعاة في العمل لمدينة القدس وتوعية الأمة العربية والإسلامية بالمخاطر المحيقة بها كما أكدوا
+                                                                        على دور الخطباء والدعاة في الحفاظ على هوية القدس والمسجد الأقصى المبارك، والعمل على تحريك الهمم تجاه القضية الفلسطينية
+                                                                        قضية المسلمين الأولى.
+                                                                        القره داغي دعا إلى توحيد جهود العلماء وطاقات المؤسسات العاملة للقدس، واجب لا تطوع
+                                                                        وقال الأمين العام للاتحاد العالمي لعلماء المسلمين الدكتور علي القره داغي إن العلماء والدعاة والأئمة والوعاظ مرابطون على
+                                                                        ثغر من ثغور الإسلام، معتبرا العمل للقدس والدفاع عن فلسطين واجبا شرعيا لا عملا تطوعيا على كل منهم.
+                                                                    </p>
+                                                                </div>
+                                                            </div>
+                                                        </article>
+                                                    </a>
+                                                </div>
+                                                <div class="col-lg-6 col-md-6">
+                                                    <a href="" class="news-link">
+                                                        <article class="news-item media">
+                                                            <figure>
+                                                                <img src="images/news.png" alt="" title="" />
+                                                            </figure>
+                                                            <div class="media-body">
+                                                                <h4>انطلاق ملتقى "منبر الأقصى للخطباء
+                                                                    والدعاة" بإسطنبول</h4>
+                                                                <span><i class="fa fa-clock fa-fw"></i> منذ يومان</span>
+                                                                <div class="d-none news-text">
+                                                                    <p>
+                                                                        انطلقت في مدينة إسطنبول التركية الجمعة فعاليات ملتقى "منبر الأقصى للخطباء والدعاة" الذي تنظمه لجان القدس في الاتحاد
+                                                                        العالمي لعلماء المسلمين وهيئة علماء فلسطين في الخارج وملتقى "القدس أمانتي" التابع لجمعية "إرادة" الدولية
+                                                                        وحضر الملتقى الذي يقام بمناسبة الذكرى السنوية الخمسين لاحتلال المسجد الأقصى المبارك شخصيات دينية وسياسية ونحو 200 خطيب
+                                                                        وداعية من عدد من الدول العربية والإسلامية، بينها تركيا ولبنان ومصر والعراق وقطر والسعودية والمغرب والجزائر وماليزيا
+                                                                        وإندونيسيا وغيرها
+                                                                    </p>
+                                                                    <p>
+                                                                        ووصف المتحدثون في جلسة الافتتاح الملتقى بأنه ثمرة لتعاون المؤسسات التي "تحمل هم القدس وتتبنى الدفاع عنها"، مؤكدين على
+                                                                        ضرورة استثمار دور الخطباء والدعاة في العمل لمدينة القدس وتوعية الأمة العربية والإسلامية بالمخاطر المحيقة بها كما أكدوا
+                                                                        على دور الخطباء والدعاة في الحفاظ على هوية القدس والمسجد الأقصى المبارك، والعمل على تحريك الهمم تجاه القضية الفلسطينية
+                                                                        قضية المسلمين الأولى.
+                                                                        القره داغي دعا إلى توحيد جهود العلماء وطاقات المؤسسات العاملة للقدس، واجب لا تطوع
+                                                                        وقال الأمين العام للاتحاد العالمي لعلماء المسلمين الدكتور علي القره داغي إن العلماء والدعاة والأئمة والوعاظ مرابطون على
+                                                                        ثغر من ثغور الإسلام، معتبرا العمل للقدس والدفاع عن فلسطين واجبا شرعيا لا عملا تطوعيا على كل منهم.
+                                                                    </p>
+                                                                </div>
+                                                            </div>
+                                                        </article>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+                                
+                            </div>
+                            <!-- <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">...</div> -->
+                        </div>
+
+                        <div class="news-details" data-simplebar>
+                            <header class="detial-hed">
+                                <h4>تفاصيل الخير</h4>
+                                <div class="action-btns">
+                                    <button type="button" class="btn btn-sm" data-toggle="popover" data-popover-content="#shareIcons" data-placement="right" data-trigger="focus"><i class="fa fa-share-alt fa-fw"></i>
+                                    </button>
+                                    <div class="d-none" id="shareIcons">
+                                        <div class="popover-body">
+                                            <a href="" class="btn btn-sm"><i class="fab fa-facebook-f fa-fw"></i></a> | <a href="" class="btn btn-sm"><i class="fab fa-twitter fa-fw"></i></a> | <a href="" class="btn btn-sm"><i class="fab fa-instagram fa-fw"></i></a>
+                                        </div>
+                                    </div>
+                                    
+                                    <button type="button" class="btn closeDetails btn-sm"><i class="fa fa-arrow-left fa-fw"></i></button>
+                                </div>
+                            </header>
+
+                            <div class="p-3">
+                                <div class="row justify-content-center">
+                                    <div class="col-lg-9">
+                                        <div id="carouselExampleControls1" class="carousel slide" data-ride="carousel">
+                                            <div class="carousel-inner">
+                                                <!--<div class="carousel-item active">
+                                                    <figure><img src="" alt="" /></figure>
+                                                </div>-->
+                                            </div>
+                                            <a class="carousel-control-prev" href="#carouselExampleControls1" role="button" data-slide="prev">
+                                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                <span class="sr-only">Previous</span>
+                                            </a>
+                                            <a class="carousel-control-next" href="#carouselExampleControls1" role="button" data-slide="next">
+                                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                <span class="sr-only">Next</span>
+                                            </a>
+                                        </div>
+
+                                        <video controls id="news-video">
+
+                                        </video>
+
+                                        <iframe id="iframe-youtube" style="width: 100%; height: 300px; margin-bottom: 25px" src="" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+                                        <h4 class="news-title"></h4>
+                                        <span class="dates" style="color: var(--main-color);"><i class="fa fa-clock fa-fw"></i> 15-3-2015</span>
+                                        <br>
+                                        <br>
+                                        <div class="stripped-text">
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <div class="footer-bg"></div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script>
+        function openModal(modalId, ModalDismiss) {
+            $(ModalDismiss).modal('hide');
+            $(modalId).modal('show');
+        }
+    </script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="plugins/animate/wow.min.js"></script>
+    <script src="plugins/simplebar-master/simplebar.js"></script>
+    <script src="js/scripts.js"></script>
+</body>
+
+</html>
